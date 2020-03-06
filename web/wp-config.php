@@ -174,6 +174,7 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 
 	// Load SMTP password from secrets for WP_Mail_SMTP.
 	define( 'WPMS_ON', true );
+	define( 'WPMS_SMTP_USER', $secrets['wpms_smtp_user'] );
 	define( 'WPMS_SMTP_PASS', $secrets['wpms_smtp_pass'] );
 
 endif;
