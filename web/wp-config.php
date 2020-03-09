@@ -168,6 +168,15 @@ if ( isset( $_ENV['PANTHEON_ENVIRONMENT'] ) ):
 		define( 'DISALLOW_FILE_MODS', true );
 	endif;
 
+	// Load and apply secrets
+	$secrets_file = $_SERVER['HOME'] . '/files/private/secrets.json';
+	$secrets = json_decode( file_get_contents( $secrets_file ), 1 );
+
+	// Load SMTP password from secrets for WP_Mail_SMTP.
+	define( 'WPMS_ON', true );
+	define( 'WPMS_SMTP_USER', $secrets['wpms_smtp_user'] );
+	define( 'WPMS_SMTP_PASS', $secrets['wpms_smtp_pass'] );
+
 endif;
 
 /*
