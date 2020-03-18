@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "519c42f4781b74dd759ada2c56dd5589",
+    "content-hash": "7c455cfe01dbffe6b6c1b2eb0f90d164",
     "packages": [
         {
             "name": "MITLibraries/cms1b-courtyard",
@@ -206,6 +206,37 @@
                 "wordpress"
             ],
             "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "mitlibraries/mitlib-secrets-widget",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/mitlib-secrets-widget.git",
+                "reference": "fd4578a8de31b5d802bed24e7d9c9e0980ffe051"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/mitlib-secrets-widget/zipball/fd4578a8de31b5d802bed24e7d9c9e0980ffe051",
+                "reference": "fd4578a8de31b5d802bed24e7d9c9e0980ffe051",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A WordPress plugin that provides an administrative widget to list available secrets",
+            "support": {
+                "source": "https://github.com/MITLibraries/mitlib-secrets-widget/tree/0.2.0",
+                "issues": "https://github.com/MITLibraries/mitlib-secrets-widget/issues"
+            },
+            "time": "2020-03-18T19:07:53+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
