@@ -4,8 +4,39 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab1ddd61d7585f7843be2d0bee24e5b7",
+    "content-hash": "56bf102d5e78a95f02909812bffa0eea",
     "packages": [
+        {
+            "name": "MITLibraries/cms1b-courtyard",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/cms1b-courtyard.git",
+                "reference": "c814456d85194f89aa1373f01564f9627dc29589"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/cms1b-courtyard/zipball/c814456d85194f89aa1373f01564f9627dc29589",
+                "reference": "c814456d85194f89aa1373f01564f9627dc29589",
+                "shasum": ""
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPL3"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A WordPress theme that is compatible with Pantheon deploys and CircleCI builds",
+            "support": {
+                "source": "https://github.com/MITLibraries/cms1b-courtyard/tree/0.1.1",
+                "issues": "https://github.com/MITLibraries/cms1b-courtyard/issues"
+            },
+            "time": "2019-02-08T21:39:11+00:00"
+        },
         {
             "name": "composer/installers",
             "version": "v1.9.0",
@@ -144,6 +175,54 @@
             "time": "2020-04-07T06:57:05+00:00"
         },
         {
+            "name": "fortawesome/font-awesome",
+            "version": "v4.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jekyll": "1.0.2",
+                "lessc": "1.4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.6.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Gandy",
+                    "email": "dave@fontawesome.io",
+                    "homepage": "http://twitter.com/davegandy",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The iconic font and CSS framework",
+            "homepage": "http://fontawesome.io/",
+            "keywords": [
+                "FontAwesome",
+                "awesome",
+                "bootstrap",
+                "font",
+                "icon"
+            ],
+            "time": "2016-10-24T15:52:54+00:00"
+        },
+        {
             "name": "johnpbloch/wordpress-core-installer",
             "version": "0.2.1",
             "source": {
@@ -190,6 +269,72 @@
                 "wordpress"
             ],
             "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "mitlibraries/mitlib-secrets-widget",
+            "version": "0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MITLibraries/mitlib-secrets-widget.git",
+                "reference": "fd4578a8de31b5d802bed24e7d9c9e0980ffe051"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MITLibraries/mitlib-secrets-widget/zipball/fd4578a8de31b5d802bed24e7d9c9e0980ffe051",
+                "reference": "fd4578a8de31b5d802bed24e7d9c9e0980ffe051",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "GPLv2"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A WordPress plugin that provides an administrative widget to list available secrets",
+            "support": {
+                "source": "https://github.com/MITLibraries/mitlib-secrets-widget/tree/0.2.0",
+                "issues": "https://github.com/MITLibraries/mitlib-secrets-widget/issues"
+            },
+            "time": "2020-03-18T19:07:53+00:00"
+        },
+        {
+            "name": "mjbernha/dvorak",
+            "version": "0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matt-bernhardt/dvorak.git",
+                "reference": "038407e6d4c4908b7298911479b7aeaf405e9349"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matt-bernhardt/dvorak/zipball/038407e6d4c4908b7298911479b7aeaf405e9349",
+                "reference": "038407e6d4c4908b7298911479b7aeaf405e9349",
+                "shasum": ""
+            },
+            "require": {
+                "fortawesome/font-awesome": "^4.6",
+                "twbs/bootstrap": "^3.3"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "GPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Bernhardt",
+                    "email": "mjbernha@mit.edu"
+                }
+            ],
+            "description": "A simple Wordpress theme to work out how to use Composer to manage dependencies",
+            "support": {
+                "source": "https://github.com/matt-bernhardt/dvorak/tree/0.1.2",
+                "issues": "https://github.com/matt-bernhardt/dvorak/issues"
+            },
+            "time": "2020-03-31T20:42:16+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
@@ -487,6 +632,57 @@
             "time": "2020-06-06T08:46:27+00:00"
         },
         {
+            "name": "twbs/bootstrap",
+            "version": "v3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/68b0d231a13201eb14acd3dc84e51543d16e5f7e",
+                "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
+            ],
+            "time": "2019-02-13T15:55:38+00:00"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "v3.6.6",
             "source": {
@@ -594,6 +790,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/pantheon-advanced-page-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         },
         {
             "name": "wpackagist-plugin/wp-cfm",
