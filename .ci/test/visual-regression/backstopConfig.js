@@ -57,7 +57,11 @@ module.exports = {
     debug: false,
     engine: 'puppeteer',
     engineOptions: {
-        args: ['--no-sandbox']
+        args: [
+            '--no-sandbox',
+            '--disable-dev-shm-usage',
+            '--runInBand'
+        ]
     },
     asyncCaptureLimit: 5,
     asyncCompareLimit: 50,
