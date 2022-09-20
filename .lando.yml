@@ -1,0 +1,6 @@
+name: mitlib-wp-demo
+recipe: pantheon
+config:
+  framework: wordpress
+  site: mitlib-wp-demo
+  id: 5f779c92-08a8-42fe-9a9a-a23f95089bb7
